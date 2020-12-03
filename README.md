@@ -1,1 +1,1 @@
-# kinectics-dataset
+# kinetics-dataset
