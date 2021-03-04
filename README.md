@@ -18,13 +18,21 @@ Kinetics-700 and Kinetics-700-2020 videos can both be found here:
 https://s3.amazonaws.com/kinetics/700_2020/
 
 For each dataset, the train/val/test splits are under different subfolders, e.g.:
+
 https://s3.amazonaws.com/kinetics/400/train/
+
 https://s3.amazonaws.com/kinetics/400/val/
+
 https://s3.amazonaws.com/kinetics/400/test/
 
+
+
 The links/annotations for all datasets can be found under the annotations subfolders, e.g.
+
 https://s3.amazonaws.com/kinetics/400/annotations/train.csv
+
 https://s3.amazonaws.com/kinetics/400/annotations/val.csv
+
 https://s3.amazonaws.com/kinetics/400/annotations/test.csv
 
 
