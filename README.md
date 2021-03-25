@@ -26,7 +26,7 @@ https://s3.amazonaws.com/kinetics/700_2020/annotations/test.csv
 
 A readme file can be found in:
 
-https://s3.amazonaws.com/kinetics/700_2020/K700-2020_readme.md
+http://s3.amazonaws.com/kinetics/700_2020/K700_2020_readme.md
 
 # Downstream annotations
 
