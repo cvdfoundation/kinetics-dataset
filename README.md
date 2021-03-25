@@ -9,7 +9,7 @@ The Kinetics project publications can be found here: https://deepmind.com/resear
 
 CVDF currently hosts the videos in the latest Kinetics-700-2020 dataset.
 
-The train/val/test splits are subdivided into files. The lists of files can be found here:
+The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
 
 https://s3.amazonaws.com/kinetics/700_2020/train/k700_2020_train_path.txt
 
