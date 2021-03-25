@@ -6,22 +6,17 @@ Kinetics is a collection of large-scale, high-quality datasets of URL links of u
 # Download Videos
 
 
-CVDF hosts the videos in the Kinetics datasets.
+CVDF currently hosts the videos in the latest Kinetics-700-2020 dataset.
 
-Kinetics-700 and Kinetics-700-2020 videos can both be found here:
-https://s3.amazonaws.com/kinetics/700_2020/
+The train/val/test splits are subdivided into files. The lists of files can be found here:
 
-For each dataset, the train/val/test splits are under different subfolders, e.g.:
+https://s3.amazonaws.com/kinetics/700_2020/train/k700_2020_train_path.txt
 
-https://s3.amazonaws.com/kinetics/700_2020/train/
+https://s3.amazonaws.com/kinetics/700_2020/val/k700_2020_val_path.txt
 
-https://s3.amazonaws.com/kinetics/700_2020/val/
+https://s3.amazonaws.com/kinetics/700_2020/test/k700_2020_test_path.txt
 
-https://s3.amazonaws.com/kinetics/700_2020/test/
-
-
-
-The links/annotations for all datasets can be found under the annotations subfolders, e.g.
+The links/annotations for can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/700_2020/annotations/train.csv
 
@@ -29,6 +24,9 @@ https://s3.amazonaws.com/kinetics/700_2020/annotations/val.csv
 
 https://s3.amazonaws.com/kinetics/700_2020/annotations/test.csv
 
+A readme file can be found in:
+
+https://s3.amazonaws.com/kinetics/700_2020/K700-2020_readme.md
 
 # Downstream annotations
 
