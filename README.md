@@ -27,6 +27,10 @@ https://s3.amazonaws.com/kinetics/400/annotations/val.csv
 
 https://s3.amazonaws.com/kinetics/400/annotations/test.csv
 
+A readme file can be found in:
+
+http://s3.amazonaws.com/kinetics/400/readme.md
+
 ### Kinetics-700-2020
 
 The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
