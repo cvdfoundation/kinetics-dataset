@@ -31,6 +31,30 @@ A readme file can be found in:
 
 http://s3.amazonaws.com/kinetics/400/readme.md
 
+
+### Kinetics-600
+
+The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
+
+https://s3.amazonaws.com/kinetics/600/train/k600_train_path.txt
+
+https://s3.amazonaws.com/kinetics/600/val/k600_val_path.txt
+
+https://s3.amazonaws.com/kinetics/600/test/k600_test_path.txt
+
+The links/annotations for can be found under the annotation subfolders:
+
+https://s3.amazonaws.com/kinetics/600/annotations/train.txt
+
+https://s3.amazonaws.com/kinetics/600/annotations/val.txt
+
+https://s3.amazonaws.com/kinetics/600/annotations/test.csv
+
+A readme file can be found in:
+
+http://s3.amazonaws.com/kinetics/600/readme.md
+
+
 ### Kinetics-700-2020
 
 The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
