@@ -28,7 +28,7 @@ Then, extract `*.tar.gz` files by:
 bash extract.sh k400_train_path.txt
 ```
 
-The links/annotations for can be found under the annotation subfolders:
+The links/annotations can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/400/annotations/train.csv
 
@@ -51,7 +51,7 @@ https://s3.amazonaws.com/kinetics/600/val/k600_val_path.txt
 
 https://s3.amazonaws.com/kinetics/600/test/k600_test_path.txt
 
-The links/annotations for can be found under the annotation subfolders:
+The links/annotations can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/600/annotations/train.txt
 
@@ -74,7 +74,7 @@ https://s3.amazonaws.com/kinetics/700_2020/val/k700_2020_val_path.txt
 
 https://s3.amazonaws.com/kinetics/700_2020/test/k700_2020_test_path.txt
 
-The links/annotations for can be found under the annotation subfolders:
+The links/annotations can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/700_2020/annotations/train.csv
 
