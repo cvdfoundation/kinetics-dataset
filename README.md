@@ -19,7 +19,7 @@ https://s3.amazonaws.com/kinetics/400/val/k400_val_path.txt
 
 https://s3.amazonaws.com/kinetics/400/test/k400_test_path.txt
 
-It is easily to obtain a specific split (e.g. train), by:
+It is easy to obtain a specific split (e.g. train), by:
 ```
 bash download.sh k400_train_path.txt
 ```
