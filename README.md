@@ -19,6 +19,15 @@ https://s3.amazonaws.com/kinetics/400/val/k400_val_path.txt
 
 https://s3.amazonaws.com/kinetics/400/test/k400_test_path.txt
 
+It is easily to obtain a specific split (e.g. train), by:
+```
+bash download.sh k400_train_path.txt
+```
+Then, extract `*.tar.gz` files by:
+```
+bash extract.sh k400_train_path.txt
+```
+
 The links/annotations for can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/400/annotations/train.csv
