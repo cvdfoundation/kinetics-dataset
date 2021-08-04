@@ -4,6 +4,10 @@ Kinetics is a collection of large-scale, high-quality datasets of URL links of u
 
 The Kinetics project publications can be found here: https://deepmind.com/research/open-source/kinetics.
 
+# Updates
+
+4th of August -- replaced corrupted videos in the kinetics-700-2020 test set (these were typically shorter than 9s as well). There are still 5% of the videos in the test set that are shorter than 9s, but genuinely so (e.g. because they are like that in youtube). 
+
 # Download Videos
 
 
