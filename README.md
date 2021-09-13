@@ -6,7 +6,7 @@ The Kinetics project publications can be found here: https://deepmind.com/resear
 
 # Updates
 
-13th of September -- K400: replaced corrupted mountain climber validation file and made available 1300+ replacement videos for existing corrupted training videos from various classes. 
+13th of September. K400: replaced corrupted mountain climber validation file and made available 1300+ replacement videos for existing corrupted training videos from various classes. K600: added list of links for held out test set.
 
 4th of August 2021 -- replaced corrupted videos in the kinetics-700-2020 test set (these were typically shorter than 9s as well). There are still 5% of the videos in the test set that are shorter than 9s, but genuinely so (e.g. because they are like that in youtube). 
 
@@ -67,6 +67,8 @@ https://s3.amazonaws.com/kinetics/600/annotations/train.txt
 https://s3.amazonaws.com/kinetics/600/annotations/val.txt
 
 https://s3.amazonaws.com/kinetics/600/annotations/test.csv
+
+https://s3.amazonaws.com/kinetics/600/annotations/kinetics600_holdout_test.csv
 
 A readme file can be found in:
 
