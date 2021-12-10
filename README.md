@@ -5,6 +5,7 @@ Kinetics is a collection of large-scale, high-quality datasets of URL links of u
 The Kinetics project publications can be found here: https://deepmind.com/research/open-source/kinetics.
 
 # Updates
+10th of December : add two downloader scripts for datasets automatic setup. (**k400_downloader.sh** and **k700_2020_downloader.sh**)
 
 13th of September. K400: replaced corrupted mountain climber validation file and made available 1300+ replacement videos for existing corrupted training videos from various classes. K600: added list of links for held out test set.
 
