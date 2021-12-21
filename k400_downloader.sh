@@ -14,7 +14,7 @@ cd ../
 cd ./val
 sudo wget -i https://s3.amazonaws.com/kinetics/400/val/k400_val_path.txt
 sudo bash ../../download.sh k400_val_path.txt
-sudo bash ../../extract.sh k400_train_path.txt
+sudo bash ../../extract.sh k400_val_path.txt
 cd ../
 
 cd ./test
