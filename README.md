@@ -47,7 +47,7 @@ A readme file can be found in:
 
 http://s3.amazonaws.com/kinetics/400/readme.md
 
-News: users found ~1400 corrupted videos. A replacement for the vast majority can be found here: 
+News: users found \~1400 corrupted videos. A replacement for the vast majority can be found here: 
 
 https://s3.amazonaws.com/kinetics/400/replacement_for_corrupted_k400.tgz 
 
@@ -78,6 +78,26 @@ http://s3.amazonaws.com/kinetics/600/readme.md
 
 ### Kinetics-700-2020
 
+#### Kinetics-700-2020 Download:
+
+##### Clone repo and enter directory
+```
+git clone https://github.com/cvdfoundation/kinetics-dataset.git
+cd kinetics-dataset
+```
+
+##### Download tar gzip files
+This will create two directories, k700-2020 and k700-2020_targz. Tar gzips will be in k700-2020_targz, you can delete k700-2020_targz directory after extraction.
+```
+bash ./k700_2020_downloader.sh
+```
+
+##### Extract tar gzip files
+```
+bash ./k700_2020_extractor.sh
+```
+
+#### Kinetics-700-2020 Info:
 The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
 
 https://s3.amazonaws.com/kinetics/700_2020/train/k700_2020_train_path.txt
