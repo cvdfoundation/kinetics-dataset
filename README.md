@@ -18,6 +18,26 @@ CVDF currently hosts the videos in the Kinetics-400 and Kinetics-700-2020 datase
 
 ### Kinetics-400
 
+#### Kinetics-400 Download:
+
+##### Clone repo and enter directory
+```
+git clone https://github.com/cvdfoundation/kinetics-dataset.git
+cd kinetics-dataset
+```
+
+##### Download tar gzip files
+This will create two directories, k400 and k400_targz. Tar gzips will be in k400_targz, you can delete k400_targz directory after extraction.
+```
+bash ./k400_downloader.sh
+```
+
+##### Extract tar gzip files
+```
+bash ./k400_extractor.sh
+```
+
+#### Kinetics-400 Info:
 The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
 
 https://s3.amazonaws.com/kinetics/400/train/k400_train_path.txt
