@@ -43,4 +43,4 @@ url=http://s3.amazonaws.com/kinetics/600/readme.md
 wget -c $url -P $root_dl
 
 # Downloads complete
-echo -e "\nDownloads complete! Now run extractor, k400_extractor.sh"
+echo -e "\nDownloads complete! Now run extractor, k600_extractor.sh"
