@@ -73,6 +73,26 @@ https://s3.amazonaws.com/kinetics/400/replacement_for_corrupted_k400.tgz
 
 ### Kinetics-600
 
+#### Kinetics-600 Download:
+
+##### Clone repo and enter directory
+```
+git clone https://github.com/cvdfoundation/kinetics-dataset.git
+cd kinetics-dataset
+```
+
+##### Download tar gzip files
+This will create two directories, k600 and k600_targz. Tar gzips will be in k600_targz, you can delete k600_targz directory after extraction.
+```
+bash ./k600_downloader.sh
+```
+
+##### Extract tar gzip files
+```
+bash ./k600_extractor.sh
+```
+
+#### Kinetics-600 Info:
 The train/val/test splits are subdivided into many files. The lists of links to video files can be found here:
 
 https://s3.amazonaws.com/kinetics/600/train/k600_train_path.txt
