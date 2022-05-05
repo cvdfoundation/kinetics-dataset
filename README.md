@@ -4,8 +4,13 @@ Kinetics is a collection of large-scale, high-quality datasets of URL links of u
 
 The Kinetics project publications can be found here: https://deepmind.com/research/open-source/kinetics.
 
+Note that it may not be safe to train / test across different versions of the dataset, for example the k400 validation set is largely part of the k700 training set so results will not be meaningful.
+
 # Updates
-10th of December : add two downloader scripts for datasets automatic setup. (**k400_downloader.sh** and **k700_2020_downloader.sh**)
+
+5th of May: fixed k400/train/part_120.tar.gz, it was a tar file before
+
+10th of December: add two downloader scripts for datasets automatic setup. (**k400_downloader.sh** and **k700_2020_downloader.sh**)
 
 13th of September. K400: replaced corrupted mountain climber validation file and made available 1300+ replacement videos for existing corrupted training videos from various classes. K600: added list of links for held out test set.
 
