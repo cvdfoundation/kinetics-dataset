@@ -104,9 +104,11 @@ https://s3.amazonaws.com/kinetics/600/test/k600_test_path.txt
 The links/annotations can be found under the annotation subfolders:
 
 https://s3.amazonaws.com/kinetics/600/annotations/train.txt 
+
 https://s3.amazonaws.com/kinetics/600/annotations/train.csv (incomplete) 
 
 https://s3.amazonaws.com/kinetics/600/annotations/val.txt
+
 https://s3.amazonaws.com/kinetics/600/annotations/val.csv (incomplete)
 
 https://s3.amazonaws.com/kinetics/600/annotations/test.csv
