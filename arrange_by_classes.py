@@ -19,7 +19,7 @@ def load_label(csv):
 
 def collect_dict(path, split, replace_videos):
     split_video_path = path / split
-    split_csv = load_label(path / f'{split}.csv')
+    split_csv = load_label(path / f'annotations/{split}.csv')
     split_videos = list(split_video_path.glob('*.mp4'))
     split_videos = {str(p.stem)[:11]:p for p in split_videos}
     # replace paths for corrupted videos
